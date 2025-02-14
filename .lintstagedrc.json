@@ -1,5 +1,7 @@
 {
   "src/**/*.{js,ts}": [
-    "npx biome check --apply"
+    "npx biome check --apply",
+    "npm run test:staged",
+    "git add"
   ]
 }

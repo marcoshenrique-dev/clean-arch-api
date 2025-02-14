@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:staged": "jest",
     "lint": "npx biome check src --apply",
     "prepare": "husky"
   },
