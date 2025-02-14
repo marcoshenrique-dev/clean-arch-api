@@ -1,0 +1,5 @@
+{
+  "src/**/*.{js,ts}": [
+    "npx biome check --apply"
+  ]
+}
